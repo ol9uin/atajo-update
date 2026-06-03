@@ -1,0 +1,2 @@
+# atajo-update
+update shortcuts
