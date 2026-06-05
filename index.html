@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Atajos</title>
+    <style>
+        :root {
+            --bg-color: #f2f2f7;
+            --card-bg: #ffffff;
+            --text-color: #1c1c1e;
+            --accent-color: #007aff;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1c1c1e;
+                --card-bg: #2c2c2e;
+                --text-color: #ffffff;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+        p {
+            color: gray;
+            font-size: 14px;
+            margin-top: 0;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .shortcut-title {
+            font-weight: 600;
+            font-size: 16px;
+            color: var(--accent-color);
+        }
+        .shortcut-desc {
+            font-size: 14px;
+            margin: 6px 0 0 0;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Atajos Personales</h1>
+        <p>Guía de uso rápida e instructivo.</p>
+        
+        <div class="card">
+            <div class="shortcut-title">⌘ Atajo 1: Modo Enfoque</div>
+            <div class="shortcut-desc">Configura las luces del hogar, activa el modo no molestar y reproduce tu playlist favorita con un solo toque.</div>
+        </div>
+
+        <div class="card">
+            <div class="shortcut-title">⌘ Atajo 2: Registro de Gastos</div>
+            <div class="shortcut-desc">Abre un cuadro de texto rápido para enviar tus gastos diarios directamente a una hoja de cálculo en iCloud Drive.</div>
+        </div>
+    </div>
+</body>
+</html>
